@@ -1,0 +1,100 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 18px;
+    width: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+    text-align: center;
+    border-right: 1px solid #dddddd; /* Vertical line between columns */
+}
+
+.styled-table th:last-child,
+.styled-table td:last-child {
+    border-right: none; /* Remove the last column's right border */
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center; /* Horizontally align buttons */
+    gap: 10px; /* Add space between buttons */
+}
+
+.btn {
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-edit {
+    background-color: #f0ad4e;
+    color: #ffffff;
+}
+
+.btn-edit:hover {
+    background-color: #ec971f;
+}
+
+.btn-delete {
+    background-color: #d9534f;
+    color: #ffffff;
+}
+
+.btn-delete:hover {
+    background-color: #c9302c;
+}
+
+.btn-view {
+    background-color: #5bc0de;
+    color: #ffffff;
+}
+
+.btn-view:hover {
+    background-color: #31b0d5;
+}
+
+.btn-add {
+    background-color: #009879;
+    color: #ffffff;
+}
+
+.btn-add:hover {
+    background-color: #07755f
+}
+
